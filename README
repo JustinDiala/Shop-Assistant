@@ -4,6 +4,42 @@ Creators:
 
 Project: Shop Assistant
 	Summary: This project main goals is to implement AHP algorithm and to tests the potential applications of the algorithm. This program using a multicriteria decision making algorithm helps the user decide what is the best product for them which in our case is laptops in amazon. This program implements the AHP algorithm and some elements of Webscraping from Amazon.
+	
+	The project contains different modes. One mode for business people who are always on the go, the other mode is for artists people which are laptops meant for creative/art oriented people, and the last mode is for people who want to game.
 
 Included files:
-	-  
+	- test_files:
+		-  Artist2.laptops: A pickled test file containing already scraped files for artists
+		- Business.laptops: A pickled test file containing already scraped files for business people
+		- Gaming.laptops: A pickled test file containing already scraped files for gamers		
+	- main_project_file.py: Contains the AHP algorithm implementation
+	- webscrape_amazon.py: contains the program that webscrapes the website
+	- README
+
+Running instructions:
+	- Extract the files
+	- navigate to the file directory
+	- type python3 main_project_file.py
+		- Then proceed to use the program. The program will guide you on how to use it.
+		- This program is currently running from the terminal, but later updates we will make
+		a full GUI for the user.
+	- When using our test files put the test files all 3 from the folders in the same directory as the .py files.
+
+Additional Comments:
+	- Amazon runs some checks in their website for webscraping and in some instances if you webscrape/use this program
+	alot you will notice that the program will fail to output anything since it could not extract any laptops.
+		- But we gaurantee that the program will run regardless if you make sure that the test files are in the same directory
+		as the .py files
+
+	- If errors occur make sure you have the following libraries installed:
+		- Beautiful soup:
+			- install by: "sudo apt-get install python3-bs4" or "$ pip install beautifulsoup4" 
+		- numpy:
+			- install by: "sudo apt-get install python3-numpy"
+
+	- If other errors presist:
+		- feel free to contact me at: justineb@ualberta.ca, please put in the subject line "Error found on git project <insert project name>"
+		- Because I would love to hear about any bugs in the code so I can proceed to patch them :) Enjoy!
+
+
+

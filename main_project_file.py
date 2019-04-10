@@ -618,3 +618,6 @@ def main():
                 index_of_max_score = i #FIXME - possibility of max at more than one index
                 print("\n","At Rank #",j, " is: ", laptops_list_of_dicts[index_of_max_score]["title"])
                 final_weights_vector[index_of_max_score] = 0
+
+if __name__ == "__main__":
+    main()
