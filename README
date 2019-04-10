@@ -1,1 +1,9 @@
-# Shop-Assistant
+Creators:
+	- Justin Diala: Computer Engineering-(Nanoscale Systems Design) University of Alberta
+	- Taranjot Singh: Computer Engineering-(Software Engineering) University of Alberta
+
+Project: Shop Assistant
+	Summary: This project main goals is to implement AHP algorithm and to tests the potential applications of the algorithm. This program using a multicriteria decision making algorithm helps the user decide what is the best product for them which in our case is laptops in amazon. This program implements the AHP algorithm and some elements of Webscraping from Amazon.
+
+Included files:
+	-  
