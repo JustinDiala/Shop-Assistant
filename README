@@ -36,6 +36,11 @@ Additional Comments:
 			- install by: "sudo apt-get install python3-bs4" or "$ pip install beautifulsoup4" 
 		- numpy:
 			- install by: "sudo apt-get install python3-numpy"
+	
+	- Another potential error is the links on the webscrape_amazon.py can cause errors, because amazon.ca does update the links
+	for obvious reasons (for example special deals or some website changes). So the links I have put there have to be updated. As the user
+	feel free to change these links and tailor the program to your needs. In the GUI that I will implement, I will change such things so that the user
+	will input links as the program runs or I will scrape for the updated links.
 
 	- If other errors presist:
 		- feel free to contact me at: justineb@ualberta.ca, please put in the subject line "Error found on git project <insert project name>"
